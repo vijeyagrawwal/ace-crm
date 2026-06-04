@@ -98,17 +98,17 @@ const SEED_DEALS = [
 
 const WA_TEMPLATES = {
   "Landowner": [
-    { label: "Meeting Reminder", text: "Hi {name},\n\nThis is a quick reminder for our meeting scheduled on {date}. Looking forward to connecting and discussing the next steps on {deal}.\n\nPlease confirm your availability.\n\nRegards\nVijey Agrawwal\nAsset Creatorz Capital" },
+    { label: "Meeting Reminder", text: "Hi {name},\n\nThis is a quick reminder for our meeting scheduled on {date}. Looking forward to connecting and discussing the next steps on {deal}.\n\nPlease confirm your availability.\n\nRegards\nVijey Agrawwal\nAssets Creators" },
     { label: "Follow-up After Meeting", text: "Hi {name},\n\nThank you for the time today. Really appreciate the conversation.\n\nAs discussed, I will be sending you the proposal / term sheet by {date}. Please feel free to reach out for any queries.\n\nRegards\nVijey" },
     { label: "Term Sheet Nudge", text: "Hi {name},\n\nHope you are doing well. Wanted to check if you had a chance to review the term sheet shared for {deal}.\n\nWould love to hear your thoughts and take this forward. Shall we connect for a quick 15 min call this week?\n\nRegards\nVijey" },
   ],
   "Investor": [
-    { label: "Intro Outreach", text: "Hi {name},\n\nThis is Vijey Agrawwal from Asset Creatorz Capital, Pune. We are a real estate advisory firm working on structured finance and JV mandates across Pune, Mumbai, Hyderabad, and Indore.\n\nWould love to share a brief on an exciting opportunity — {deal}. Open for a quick 15 min call at your convenience?\n\nRegards\nVijey" },
+    { label: "Intro Outreach", text: "Hi {name},\n\nThis is Vijey Agrawwal from Assets Creators, Pune. We are a real estate advisory firm working on structured finance and JV mandates across Pune, Mumbai, Hyderabad, and Indore.\n\nWould love to share a brief on an exciting opportunity — {deal}. Open for a quick 15 min call at your convenience?\n\nRegards\nVijey" },
     { label: "Post-meeting Follow-up", text: "Hi {name},\n\nThank you for the time today. It was a great conversation.\n\nAs discussed, I am sharing the project brief and financial summary for {deal}. Please go through it and let me know your thoughts.\n\nHappy to connect again to take this forward.\n\nRegards\nVijey" },
     { label: "Gentle Reminder", text: "Hi {name},\n\nHope all is well. Just following up on the project brief I shared for {deal}.\n\nWould love your feedback when convenient. We are at a stage where early conversations can be very valuable.\n\nRegards\nVijey" },
   ],
   "Developer": [
-    { label: "Partnership Proposal", text: "Hi {name},\n\nHope you are doing well. We have an interesting land parcel opportunity that aligns well with your development pipeline — {deal}.\n\nWould love to present the details and explore a JV or DM structure. Are you available this week for a brief call?\n\nRegards\nVijey Agrawwal\nAsset Creatorz Capital" },
+    { label: "Partnership Proposal", text: "Hi {name},\n\nHope you are doing well. We have an interesting land parcel opportunity that aligns well with your development pipeline — {deal}.\n\nWould love to present the details and explore a JV or DM structure. Are you available this week for a brief call?\n\nRegards\nVijey Agrawwal\nAssets Creators" },
   ],
   "Consultant": [
     { label: "Report Follow-up", text: "Hi {name},\n\nHope all is well. Wanted to follow up on the {deal} report / analysis we had discussed.\n\nCould you share a status update? We are working on a timeline and want to align accordingly.\n\nRegards\nVijey" },
@@ -116,14 +116,14 @@ const WA_TEMPLATES = {
 };
 const EMAIL_TEMPLATES = {
   "Landowner": [
-    { label: "CDDMO Proposal Cover", subject: "Land Partnership Proposal — {deal} | Asset Creatorz Capital", body: "Dear {name},\n\nThank you for the discussion on {deal}.\n\nPlease find attached our proposal for a Capital-Driven Development Management and Operations (CDDMO) structure for your land parcel. This model ensures:\n\n- Full capital support from our developer partner\n- Guaranteed minimum land value for you\n- No upfront cost or risk to the landowner\n- Revenue share post project completion\n\nWe are confident this structure will maximize value for you while eliminating execution risk.\n\nLooking forward to your thoughts. Happy to schedule a call to walk you through the details.\n\nWarm regards\nVijey Agrawwal\nCo-Founder, Asset Creatorz Capital\nPune" },
-    { label: "Term Sheet Sharing", subject: "Term Sheet — {deal} | Asset Creatorz Capital", body: "Dear {name},\n\nAs discussed, please find enclosed the term sheet for our proposed partnership on {deal}.\n\nKey terms at a glance:\n- Structure: JV / CDDMO / DM\n- Land value: As agreed\n- Revenue share: [X]%\n- Milestone-linked payments\n\nPlease review and share your comments. We are keen to move to the next stage at your convenience.\n\nBest regards\nVijey Agrawwal\nAsset Creatorz Capital" },
+    { label: "CDDMO Proposal Cover", subject: "Land Partnership Proposal — {deal} | Assets Creators", body: "Dear {name},\n\nThank you for the discussion on {deal}.\n\nPlease find attached our proposal for a Capital-Driven Development Management and Operations (CDDMO) structure for your land parcel. This model ensures:\n\n- Full capital support from our developer partner\n- Guaranteed minimum land value for you\n- No upfront cost or risk to the landowner\n- Revenue share post project completion\n\nWe are confident this structure will maximize value for you while eliminating execution risk.\n\nLooking forward to your thoughts. Happy to schedule a call to walk you through the details.\n\nWarm regards\nVijey Agrawwal\nCo-Founder, Assets Creators\nPune" },
+    { label: "Term Sheet Sharing", subject: "Term Sheet — {deal} | Assets Creators", body: "Dear {name},\n\nAs discussed, please find enclosed the term sheet for our proposed partnership on {deal}.\n\nKey terms at a glance:\n- Structure: JV / CDDMO / DM\n- Land value: As agreed\n- Revenue share: [X]%\n- Milestone-linked payments\n\nPlease review and share your comments. We are keen to move to the next stage at your convenience.\n\nBest regards\nVijey Agrawwal\nAssets Creators" },
   ],
   "Investor": [
-    { label: "Project Investment Brief", subject: "Investment Opportunity — {deal} | Asset Creatorz Capital", body: "Dear {name},\n\nI hope this email finds you well.\n\nWe are presenting a structured investment opportunity in {deal}, a Residential / Mixed Use / Plotted project.\n\nHighlights:\n- Total project value: INR [X] Cr\n- Investment ask: INR [X] Cr\n- Structure: Equity / Debt / Structured\n- Projected IRR: [X]%\n- Timeline: [X] months\n\nI have attached the project brief and financial summary for your review.\n\nWould love to connect for a 30 min walkthrough at your convenience.\n\nWarm regards\nVijey Agrawwal\nCo-Founder, Asset Creatorz Capital" },
+    { label: "Project Investment Brief", subject: "Investment Opportunity — {deal} | Assets Creators", body: "Dear {name},\n\nI hope this email finds you well.\n\nWe are presenting a structured investment opportunity in {deal}, a Residential / Mixed Use / Plotted project.\n\nHighlights:\n- Total project value: INR [X] Cr\n- Investment ask: INR [X] Cr\n- Structure: Equity / Debt / Structured\n- Projected IRR: [X]%\n- Timeline: [X] months\n\nI have attached the project brief and financial summary for your review.\n\nWould love to connect for a 30 min walkthrough at your convenience.\n\nWarm regards\nVijey Agrawwal\nCo-Founder, Assets Creators" },
   ],
   "Consultant": [
-    { label: "Feasibility Request", subject: "Feasibility Report Request — {deal}", body: "Dear Team,\n\nWe are working on a land parcel / development opportunity at {deal} and would like to commission a feasibility study.\n\nScope required:\n- Market demand analysis\n- Comparable sales / rentals\n- Absorption rates\n- Recommended product mix\n- High-level financial viability\n\nCould you share your timeline and cost estimate for the same?\n\nLooking forward to working with you.\n\nRegards\nVijey Agrawwal\nAsset Creatorz Capital" },
+    { label: "Feasibility Request", subject: "Feasibility Report Request — {deal}", body: "Dear Team,\n\nWe are working on a land parcel / development opportunity at {deal} and would like to commission a feasibility study.\n\nScope required:\n- Market demand analysis\n- Comparable sales / rentals\n- Absorption rates\n- Recommended product mix\n- High-level financial viability\n\nCould you share your timeline and cost estimate for the same?\n\nLooking forward to working with you.\n\nRegards\nVijey Agrawwal\nAssets Creators" },
   ],
 };
 
@@ -674,7 +674,7 @@ export default function App() {
       <div style={{ background: T.surface, borderBottom: `1px solid ${T.border}`, padding: "12px 24px", display: "flex", alignItems: "center", justifyContent: "space-between", boxShadow: "0 2px 12px #00000010" }}>
         <div>
           <div style={{ color: T.accent, fontWeight: 900, fontSize: 17, letterSpacing: 1 }}>ACE CRM</div>
-          <div style={{ color: T.muted, fontSize: 10, letterSpacing: 2 }}>ASSET CREATORZ CAPITAL</div>
+          <div style={{ color: T.muted, fontSize: 10, letterSpacing: 2 }}>ASSETS CREATORS</div>
         </div>
         <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
           {overdue > 0 && <Badge label={`${overdue} OVERDUE`} color={T.red} />}
